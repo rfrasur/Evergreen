@@ -12,9 +12,8 @@
     aria-label="Home" i18n-aria-label="Home button aria label@@navbar-home-button-aria-label"
     egAccessKey keyCtx="navbar" i18n-keySpec i18n-keyDesc
     keySpec="alt+h" keyDesc="Navigate Home">
-    <span class="material-icons" aria-hidden="true">home</span>
+    <span class="material-icons" aria-hidden="true" title="Home: Alt+H">home</span>
     <span class="visually-hidden" i18n>Home</span>
-    <kbd>Alt+H</kbd> <!--This works exclusively from EG2/Angular interfaces-->
   </a>
   <button class="navbar-toggler text-light" type="button" (click)="isMenuCollapsed = !isMenuCollapsed">&#9776;</button>
 
@@ -898,9 +897,8 @@
               (keydown.enter)="isMenuCollapsed = true"
               egAccessKey keyCtx="navbar" i18n-keySpec i18n-keyDesc
               keySpec="alt+shift+q" keyDesc="Logout (Quit)">
-            <span class="material-icons" aria-hidden="true">lock_outline</span>
+            <span class="material-icons" aria-hidden="true" title="Logout: Alt+Shift+Q">lock_outline</span>
             <span i18n>Logout</span>
-            <kbd>Alt+Shift+Q</kbd> <!--only works from EG2/Angular interfaces-->
           </button>
           <a class="dropdown-item" ngbDropdownItem
            routerLinkActive="active" 
