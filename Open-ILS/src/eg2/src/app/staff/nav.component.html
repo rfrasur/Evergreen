@@ -30,7 +30,7 @@
             (keydown.space)="isMenuCollapsed = true" 
             (keydown.enter)="isMenuCollapsed = true"
             egAccessKey keyCtx="navbar" i18n-keySpec i18n-keyDesc
-            keySpec="alt+s f4" keyDesc="Patron Search">
+            keySpec="f4" keyDesc="Patron Search">
             <span class="material-icons" aria-hidden="true">person</span>
             <span i18n>Search for Patrons</span>
             <kbd>F4</kbd>
@@ -900,6 +900,7 @@
               keySpec="alt+shift+q" keyDesc="Logout (Quit)">
             <span class="material-icons" aria-hidden="true">lock_outline</span>
             <span i18n>Logout</span>
+            <kbd>Alt+Shift+Q</kbd> <!--only works from EG2/Angular interfaces-->
           </button>
           <a class="dropdown-item" ngbDropdownItem
            routerLinkActive="active" 
