@@ -220,8 +220,10 @@
           </li>
           <li>
             <a href="./cat/item/search" target="_self">
+              eg-accesskey="[% l('f5') %]" 
+              eg-accesskey-desc="[% l('Item Status') %]">
               <span class="glyphicon glyphicon-saved" aria-hidden="true"></span>
-              <span>[% l('Item Status') %]</span>
+              <span>[% l('Item Status F5') %]</span>
             </a>
           </li>
           <li>
@@ -266,6 +268,8 @@
         <ul uib-dropdown-menu>
           <li>
             <a href="/eg2/staff/circ/patron/search">
+              eg-accesskey="[% l('alt+s') %] [% l('f4') %]" 
+              eg-accesskey-desc="[% l('Patron search by name, address, etc.') %]">
               <span class="glyphicon glyphicon-user" aria-hidden="true"></span>
               <span>[% l('Search for Patrons') %]</span>
             </a>
@@ -335,8 +339,10 @@
         <ul uib-dropdown-menu>
           <li> 
             <a href="/eg2/staff/catalog/search">
+              eg-accesskey="[% l('f3') %]" 
+              eg-accesskey-desc="[% l('Catalog') %]">
               <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
-              <span>[% l('Search the Catalog') %]</span>
+              <span>[% l('Search the Catalog F3') %]</span>
             </a>
           </li>
           <li ng-if="showTraditionalCatalog">
@@ -347,8 +353,10 @@
           </li>
           <li>
             <a href="./cat/item/search" target="_self">
+              eg-accesskey="[% l('f5') %]" 
+              eg-accesskey-desc="[% l('Item Status') %]">
               <span class="glyphicon glyphicon-saved" aria-hidden="true"></span>
-              <span>[% l('Item Status') %]</span>
+              <span>[% l('Item Status F5') %]</span>
             </a>
           </li>
           <li class="divider"></li>
