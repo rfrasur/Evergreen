@@ -377,7 +377,7 @@
               eg-accesskey="[% l('shift+f3') %]" 
               eg-accesskey-desc="[% l('Retrieve Last Bib Record') %]">
               <span class="glyphicon glyphicon-tag" aria-hidden="true"></span>
-              [% l('Retrieve Bib Record by TCN') %]
+              [% l('Retrieve Bib Record by TCN Shift+F3') %]
             </a>
           </li>
           <li>
@@ -385,7 +385,7 @@
               eg-accesskey="[% l('shift+f8') %]" 
               eg-accesskey-desc="[% l('Retrieve Last Bib Record') %]">
               <span class="glyphicon glyphicon-share-alt" aria-hidden="true"></span>
-              [% l('Retrieve Last Bib Record') %]
+              [% l('Retrieve Last Bib Record Shift+F8') %]
             </a>
           </li>
           <li class="divider"></li>
@@ -394,7 +394,7 @@
               eg-accesskey="[% l('ctrl+f3') %]"
               eg-accesskey-desc="[% l('Create New MARC Record') %]">
               <span class="glyphicon glyphicon-plus aria-hidden="true""></span>
-              [% l('Create New MARC Record') %]
+              [% l('Create New MARC Record Ctrl+F3') %]
             </a>
           </li>
           <li>
