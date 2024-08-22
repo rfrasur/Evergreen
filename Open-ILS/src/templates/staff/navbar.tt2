@@ -219,7 +219,7 @@
             </a>
           </li>
           <li>
-            <a href="./cat/item/search" target="_self">
+            <a href="./cat/item/search" target="_self"
               eg-accesskey="[% l('f5') %]" 
               eg-accesskey-desc="[% l('Item Status') %]">
               <span class="glyphicon glyphicon-saved" aria-hidden="true"></span>
